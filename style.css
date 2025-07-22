@@ -2,8 +2,7 @@ div{
 text-align: center;
 color: white;
 font-family: 'Courier New', Courier, monospace;
-border-radius: 10px;
-    border-style: solid;
+
     display: block;
         margin: auto;
 }
@@ -17,9 +16,11 @@ li{
 }
 
 .pokemon_description{
-    border: 10px;
-    border-radius: 10px;
-    border-color: bis
+font-family: 'Courier New', Courier, monospace;
+color: rgb(238, 246, 240);
+text-align: center;
+margin: 4px ;
+
 }
 
 
@@ -30,13 +31,39 @@ body{
 
 
 .pokemon_names{
-
+font-family: 'Courier New', Courier, monospace;
+color: white;
+margin: 4px
 
 
 }
 
-.squirtle_container{
-   
+#squirtle_container{
+   background-color: blue;
+   border-radius: 10px;
+border-style: solid;
+margin: 4px;
+border-width: 3px;
+}
+
+
+
+#charmander_contariner{
+background-color: red;
+border-radius: 10px;
+border-style: solid;
+margin: 4px;
+border-width: 3px;
+}
+
+
+#bulbasaur_comtainer{
+    background-color: green;
+    border-radius: 10px;
+border-style: solid;
+margin: 4px;
+border-width: 3px;
+
 }
 
 img{
